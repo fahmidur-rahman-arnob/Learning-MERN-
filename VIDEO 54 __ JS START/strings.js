@@ -1,11 +1,7 @@
-
-
 //In here I will learn about strings and it's methods...
-
 console.log("This is about STRINGS!");
 
-let a = "Harry";
-
+// let a = "Harry";
 
 //one way of printing char's
 // console.log(a[0]);
@@ -14,6 +10,11 @@ let a = "Harry";
 // console.log(a[3]);
 // console.log(a[4]);
 
-for(let i = 0; i < a.length; i++){
-    console.log(a[i]);
-}
+// for(let i = 0; i < a.length; i++){
+//     console.log(a[i]);
+// }
+// console.log(a.length);
+
+let name = "harry";
+let friend = "Rohan";
+console.log("His name is " + name + " and his friends name is " + friend);
