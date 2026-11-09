@@ -36,7 +36,7 @@ async function getData() {
     // });
 
     let x = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-    let data = await x.json();
+    let data = await x.text();
     console.log(data);
 };
 
